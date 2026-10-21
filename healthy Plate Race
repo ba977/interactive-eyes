@@ -1,0 +1,176 @@
+Create a complete single-file HTML game called:
+
+🏆 Healthy Plate Race - تحدي الطبق الصحي
+
+Target Age:
+Children and adolescents aged 6-18 years.
+
+Language:
+Arabic (RTL).
+
+Technical Requirements:
+- One self-contained HTML file.
+- Include all CSS and JavaScript inside the same file.
+- No external libraries.
+- Mobile-friendly.
+- Responsive design.
+- Works directly on GitHub Pages.
+
+GAME STORY
+
+The player is preparing a healthy meal for a race champion.
+
+The healthier and more balanced the plate is, the faster the character runs at the end.
+
+GAME FLOW
+
+SCREEN 1:
+- Beautiful welcome screen.
+- Animated background.
+- Title:
+"تحدي الطبق الصحي"
+- Name input field.
+- Start Game button.
+
+SCREEN 2:
+- Random mission appears:
+
+Examples:
+- أنشئ وجبة صحية للاعب كرة قدم.
+- أنشئ فطوراً قبل الامتحان.
+- أنشئ وجبة لطفل نشيط.
+- أنشئ وجبة لسباق رياضي.
+
+- 45 second countdown timer.
+- Large timer at top.
+
+FOOD SELECTION AREA
+
+Healthy Foods:
+🍎 Apple
+🍌 Banana
+🥕 Carrot
+🥦 Broccoli
+🍗 Chicken
+🐟 Fish
+🥚 Egg
+🥛 Milk
+💧 Water
+🍚 Brown Rice
+
+Unhealthy Foods:
+🍟 Fries
+🍔 Burger
+🍕 Pizza
+🥤 Soda
+🍩 Donut
+🍬 Candy
+
+GAME MECHANICS
+
+- Drag and drop foods into the plate.
+- Real-time scoring system.
+- Healthy foods add points.
+- Unhealthy foods remove points.
+- Bonus for creating a balanced plate.
+
+Balanced plate includes:
+- Vegetables
+- Fruits
+- Protein
+- Healthy drink
+- Healthy carbs
+
+VISUAL EFFECTS
+
+- Hover animations.
+- Food cards bounce.
+- Plate glows when correct foods are added.
+- Particle effects.
+- Progress bar.
+
+RACE SCREEN
+
+After timer reaches zero:
+
+Show a running track.
+
+Display the player's cartoon character.
+
+Character speed depends on final score.
+
+Score under 50:
+🐢 Slow
+
+50-69:
+🚶 Average
+
+70-89:
+🏃 Fast
+
+90-100:
+⚡ Super Fast
+
+Animate the race.
+
+Show cheering crowd.
+
+RESULTS SCREEN
+
+Display:
+
+Player Name
+Final Score
+
+Award System:
+
+🏅 Gold Medal 90+
+🥈 Silver Medal 70-89
+🥉 Bronze Medal 50-69
+🎖 Participation Badge Below 50
+
+Leaderboard
+
+Save all scores using localStorage.
+
+Display:
+
+Rank
+Name
+Score
+Medal
+
+Automatically sort highest score first.
+
+SCHOOL EVENT MODE
+
+Add a button:
+
+"Next Player"
+
+When pressed:
+- Keep leaderboard.
+- Reset game.
+- Allow next student to enter name.
+
+DESIGN STYLE
+
+Inspired by:
+- Mario style educational games
+- Bright modern health games
+- UAE school health campaign
+
+Color palette:
+- Green
+- Blue
+- Orange
+- White
+
+Interface features:
+- Large rounded buttons
+- Cartoon food cards
+- Smooth transitions
+- Confetti celebration
+- Professional educational appearance
+
+Final result should look like a real educational game, not a simple quiz.
